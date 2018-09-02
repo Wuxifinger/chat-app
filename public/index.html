@@ -6,20 +6,10 @@
 </head>
 
 <body>
-    <p>Welcome to chat app</p>
+    <p>Welcome to chat app. This is a paragraph.</p>
 
     <script src="/socket.io/socket.io.js"></script>
-    <script>
-        var socket = io();
-
-        socket.on('connect', () => {
-            console.log("Connected to server");
-        });
-
-        socket.on('disconnect', () => {
-            console.log("Disconnected from server");
-        });
-    </script>
+    <script src="/js/index.js"></script>
 </body>
 
 </html>
